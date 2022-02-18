@@ -82,5 +82,17 @@ public class FirstClass {
         System.out.println("now max+1 = -128; true? " + (max == -128));
         System.out.println("min = " + min);
         System.out.println("max = " + max);
+        System.out.println("\nСложение разных типов\n");
+        int iInt =10;
+        float fFloat = 10.1f;
+        System.out.println("iInt = "+iInt+"\n"+"fFloat = "+fFloat);
+        iInt +=fFloat;
+        System.out.println("iInt = iInt+fFloat = "+iInt);
+
+        int iIntI = 10;
+        float fFloatF = 10.1f;
+        System.out.println("\niIntI = "+iIntI+"\n"+"fFloatF = "+fFloatF);
+        fFloatF +=iIntI;
+        System.out.println("fFloatF = fFloatF+iIniI = "+fFloatF);
     }
 }
